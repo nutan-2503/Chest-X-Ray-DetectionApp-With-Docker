@@ -17,12 +17,6 @@ The Application first builds a Deep Learning model to predict the deformity in t
 
 # Flask API
 Flask is a Python-based framework that provides us the ease of dealing with microservices. My application makes use of the framework and builds a REST service that interacts with user and builds an application to detect deformity in Chest-X-Ray. It builds several endpoints for user-interaction.
-- Login: Takes in the credentials from the user and proceeds to next page if login successful.
+- Login: Takes in the credentials from the user and proceeds to next page if login successful.<br/> ![login](https://user-images.githubusercontent.com/60135434/108323199-61163d00-71ec-11eb-9d90-d3e35288d4e2.png)
 - Upload: Prompts the user to upload the chest-x-ray.
 - Result: Displays the result with GRAD-CAM image for proper user understanding.
-
-# Screenshots of the application:
-![login](https://user-images.githubusercontent.com/60135434/108323199-61163d00-71ec-11eb-9d90-d3e35288d4e2.png)
-
-
-
