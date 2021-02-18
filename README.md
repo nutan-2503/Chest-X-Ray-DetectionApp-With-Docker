@@ -32,8 +32,7 @@ python app.py
 ````
 Run http://127.0.0.0/5000/ to test the application
 
-- Using Docker:
- a. Build the docker image using:
+- Using Docker:<br/> a. Build the docker image using:
  ````
  docker build --tag=chest-x-ray:latest .
  ````
