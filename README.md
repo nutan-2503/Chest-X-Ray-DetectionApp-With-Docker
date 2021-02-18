@@ -20,3 +20,25 @@ Flask is a Python-based framework that provides us the ease of dealing with micr
 - Login: Takes in the credentials from the user and proceeds to next page if login successful.<br/> <br/>![login](https://user-images.githubusercontent.com/60135434/108323199-61163d00-71ec-11eb-9d90-d3e35288d4e2.png)
 - Upload: Prompts the user to upload the chest-x-ray. <br/><br/>![upload](https://user-images.githubusercontent.com/60135434/108323556-d5e97700-71ec-11eb-9717-83c22f5b4e8d.png)
 - Result: Displays the result with GRAD-CAM image for proper user understanding.<br/><br/>![result](https://user-images.githubusercontent.com/60135434/108323755-0c26f680-71ed-11eb-8854-8e0aff5e4c7d.png)
+
+# Steps to run application:
+- Clone the Application:<br/> 
+````
+git clone https://github.com/nutan-2503/Chest-X-Ray-DetectionApp-With-Docker.git
+````
+- To run the application in python:<br/>
+````
+python app.py
+````
+Run http://127.0.0.0/5000/ to test the application
+
+- Using Docker:
+ a. Build the docker image using:
+ ````
+ docker build --tag=chest-x-ray:latest .
+ ````
+ b. Run the app using 
+ ````
+ docker run -d -p 5000:5000 chest-x-ray:latest
+ ````
+ Run http://127.0.0.1/5000/ to test the application
