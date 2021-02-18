@@ -21,4 +21,8 @@ Flask is a Python-based framework that provides us the ease of dealing with micr
 - Upload: Prompts the user to upload the chest-x-ray.
 - Result: Displays the result with GRAD-CAM image for proper user understanding.
 
+# Screenshots of the application:
+![login](https://user-images.githubusercontent.com/60135434/108323199-61163d00-71ec-11eb-9d90-d3e35288d4e2.png)
+
+
 
