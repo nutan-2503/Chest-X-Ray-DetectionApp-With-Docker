@@ -39,6 +39,6 @@ Run http://127.0.0.0/5000/ to test the application
  ````
  b. Run the app using 
  ````
- docker run -d -p 5000:5000 chest-x-ray:latest
+ docker run -d -p 5000:5000 --name test-app chest-x-ray:latest
  ````
  Run http://127.0.0.1/5000/ to test the application
