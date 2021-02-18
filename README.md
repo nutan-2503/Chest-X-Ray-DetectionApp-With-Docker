@@ -26,13 +26,13 @@ Flask is a Python-based framework that provides us the ease of dealing with micr
 ````
 git clone https://github.com/nutan-2503/Chest-X-Ray-DetectionApp-With-Docker.git
 ````
-- To run the application in python:<br/>
+- **To run the application in python:**<br/>
 ````
 python app.py
 ````
 Run http://127.0.0.0/5000/ to test the application
 
-- Using Docker:<br/> a. Build the docker image using:
+- **Using Docker:**<br/> a. Build the docker image using:
  ````
  docker build --tag=chest-x-ray:latest .
  ````
