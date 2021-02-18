@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Login</title>
+<style>
+
+body::after {
+  content: "";
+  background-image: url('/static/img/a2.jpg');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+
+</style>
+  </head>
+  <body>
+<br><br> 
+    <h1 style="margin-top:2%;text-align:center;"><b>CHEST X-RAY IMAGE DETECTION PROJECT</b></h1>
+<br><br>
+<div class="container-md shadow p-3 mb-5 bg-white rounded" style="background:#ffffff;width:40%;border-radius:15px;margin-right:55%;border-style: solid;border-color:	#1E90FF;margin-top:5%;">
+<h3 style="text-align:center;">Login</h3>
+<br><br>
+<form action="{{ url_for('login') }}" method="post">
+  <div class="form-group row">
+<label for="exampleInputEmail1" class="col-sm-4 col-form-label">Email address</label>
+<input type="email" class="col-sm-6 form-control" name="username" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="hello@example.com" required="required">
+</div>
+<div class="form-group row">
+<label for="exampleInputPassword1" class="col-sm-4 col-form-label">Password</label>
+<input type="password" class="col-sm-6 form-control" name="password" id="exampleInputPassword1" required="required">
+</div>
+
+<button type="submit" class="btn btn-primary">Login</button>
+</form>
+  <br>
+</div>
+
+
+
+
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
